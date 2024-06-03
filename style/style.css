@@ -34,3 +34,70 @@
 body{
     background-color: #141414;
 }
+h1{
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+p{
+    color: aliceblue;
+    font-size: 16px;
+}
+h2{
+    color: aliceblue;
+    font-size: 30px;
+}
+.texture{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.texture img{
+    width: 30%;
+    border-radius: 20px;
+}
+.imgs{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.imgs img{
+    width: 50%;
+}
+.mem{
+    display: flex;
+    justify-content: space-between;
+}
+.mem img{
+    width: 100%;
+}
+.port{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    grid-auto-flow: column dense;
+    padding-left: 30px;
+    justify-content: center;
+}
+.port img{
+    width: 100%;
+}
+.rofl{
+    display: flex;
+    justify-content: center;
+}
+.rofl .img{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.contact_1 p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.carera p{
+    text-align: center;
+    margin-bottom: 40px;
+}
