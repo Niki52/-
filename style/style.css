@@ -79,11 +79,14 @@ h2{
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
     grid-auto-flow: column dense;
-    padding-left: 30px;
     justify-content: center;
 }
 .port img{
     width: 100%;
+}
+.port a{
+    text-decoration: none;
+    color: aliceblue;
 }
 .rofl{
     display: flex;
@@ -100,4 +103,76 @@ h2{
 .carera p{
     text-align: center;
     margin-bottom: 40px;
+}
+
+@media  (max-width: 1570px){
+    .container{
+        width: 1170px !important;
+    }
+}
+
+
+@media  (max-width: 1024px){
+    .container{
+        width: 98% !important;
+    }
+}
+
+
+@media  (max-width: 780px){
+    .container{
+        width: 98% !important;
+    }
+    .imgs{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgs img{
+        width: 70%;
+    }
+    .port{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+}
+
+
+@media  (max-width: 540px){
+    .container{
+        width: 98% !important;
+    }
+    .imgs{
+        flex-direction: column;
+    }
+    .imgs img{
+        width: 100%;
+    }
+    .mem{
+        flex-direction: column;
+    }
+    .port{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media  (max-width: 320px){
+    .container{
+        width: 98% !important;
+    }
+    .imgs{
+        flex-direction: column;
+    }
+    .imgs img{
+        width: 100%;
+    }
+    .mem{
+        flex-direction: column;
+    }
+    .port{
+        display: flex;
+        flex-direction: column;
+    }
 }
